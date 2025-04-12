@@ -10,6 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "ft_fprintf.h"
 
 int ft_putchar_fd(int fd, char c) { return (write(fd, &c, 1)); }

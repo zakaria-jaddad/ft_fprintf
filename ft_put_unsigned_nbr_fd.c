@@ -9,7 +9,7 @@
 /*   Updated: 2025/04/12 16:47:33 by zajaddad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_fprintf.h"
 
 void ft_put_unsigned_nbr_fd(int fd, unsigned int n, int *counter) {
   if (n < 10)

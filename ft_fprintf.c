@@ -6,10 +6,10 @@
 /*   By: zajaddad <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/17 17:36:41 by zajaddad          #+#    #+#             */
-/*   Updated: 2025/04/12 16:50:24 by zajaddad         ###   ########.fr       */
+/*   Updated: 2025/04/12 21:31:57 by zajaddad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_fprintf.h"
 
 void print_format(int fd, char fmt, va_list ap, int *counter) {
   if (fmt == 'c')
