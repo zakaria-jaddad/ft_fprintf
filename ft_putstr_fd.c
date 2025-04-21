@@ -15,5 +15,5 @@
 int ft_putstr_fd(int fd, char *s) {
   if (s == NULL)
     return (write(fd, "(null)", 6));
-  return (write(fd, s, ft_strlen(s)));
+  return (write(fd, s, ft_fprintf_strlen(s)));
 }

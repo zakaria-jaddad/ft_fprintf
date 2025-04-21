@@ -16,7 +16,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-size_t ft_strlen(const char *s);
+size_t ft_fprintf_strlen(const char *s);
 void ft_putnbr_fd(int fd, int n, int *counter);
 void ft_put_unsigned_nbr_fd(int fd, unsigned int n, int *counter);
 void ft_puthex_fd(int fd, size_t n, const char *base, int *counter);
